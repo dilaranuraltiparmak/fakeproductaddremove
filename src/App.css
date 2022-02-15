@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.myCart{
+  display: flex;
+  margin-left: 10px;
+}
+.myCart p {
+  margin-left: 5px;
+  margin-right:5px ;
+}
+.myCart h4{
+  color: orangered;
+  font-weight: lighter;
+}
+.main{
+  width: 90vw;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+itemList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@keyframes removeAnimation{
+  from{
+    opacity: 1;
+    transform:translate(0%)
+  }
+}
